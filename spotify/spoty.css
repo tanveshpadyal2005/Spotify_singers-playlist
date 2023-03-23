@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    /* background-color: aquamarine !important; */
+    height: 30rem;
+    width: 20rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    padding: 11px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.card::-webkit-scrollbar{
+    display: none;
+}
+
+.card img{
+    object-fit: cover;
+    width: 18.5rem;
+    height: 15rem;
+    border-radius: 10px;
+    outline: 2px solid black;
+}
+
+.card a{
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: rgb(9, 168, 225);
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.content p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+
+.content h3{
+    font-size: 25px;
+    color: gold;
+}
+
+.content .des{
+    color: gray;
+    font-size: 17px;
+}
+
+#ad{
+    height: 30vh;
+    width: 100%;
+    background-image:url(https://cdn.pixabay.com/photo/2013/02/15/10/58/wave-81840_960_720.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ad #music{
+    width: 25rem;
+    height: 3rem;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px 0 0 5px;
+    border: none ;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 15px;
+    margin-right: 0;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+form h1{
+    color: gold;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    /* text-transform: u; */
+
+}
+
+#music:focus{
+    border: 5px solid rgba(9, 9, 64, 0.268) !important;
+    outline: none;
+    background-color: rgb(255, 240, 155) !important;
+}
+
+.send{
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(9, 168, 225);
+    border-radius: 0 0 5px 5px;
+    margin-left: 0;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 2px 2px 15px rgb(98, 213, 255);
+}
+
+.send:hover{
+    background-color: rgb(1, 88, 142);
+}
+
+#music:active{
+    
+}
+
+body{
+    background-color: #252525 !important;
+}
+
